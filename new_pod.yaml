@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name:  new_pod.yaml
+spec:
+  container:
+  - name: my_first_container
+    image: ngix 
+    port: 
+    - containerPort: 80
+
