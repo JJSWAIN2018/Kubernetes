@@ -3,9 +3,9 @@ kind: Pod
 metadata:
   name:  new_pod.yaml
 spec:
-  container:
+  containers:
   - name: my_first_container
     image: ngix 
-    port: 
+    ports: 
     - containerPort: 80
 
