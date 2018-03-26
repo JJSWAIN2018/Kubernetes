@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: my_first_container
-    image: ngix 
+    image: tomcat 
     ports: 
-    - containerPort: 80
+    - containerPort: 8080
 
