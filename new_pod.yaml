@@ -3,6 +3,7 @@ kind: Pod
 metadata:
   name:  new_pod.yaml
 spec:
+ hostNetwork: true
   containers:
   - name: my_first_container
     image: tomcat 
