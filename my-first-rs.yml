@@ -7,16 +7,18 @@ spec:
   selector:
     matchLabels:
       project: My-Project 
-      ver: 0.1
+      ver: '0.1'
   template:
     metadata:
       name: my-first-pod
       labels:
         project: My-Project
-        ver: 0.1
+        ver: '0.1'
 
   #hostNetwork: true
     spec:
-      image: ngnix  
-      ports: 
-      - containerPort: 80
+      containers:
+        name: 
+        image: ngnix 
+        ports: 
+        - containerPort: 80
